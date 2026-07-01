@@ -1,0 +1,77 @@
+#include <iostream>
+using namespace std;
+class A{
+	sting name;
+	int age;
+	float gpa;
+
+    public :	
+	A(){
+		name = "Mehlail";
+		age = 14;
+		float = 4;
+		cout<<"0 argument constructer"<<endl;
+		
+	}
+	
+	
+		A(string s){
+		name = s;
+		age = 14;
+		float = 4;
+		cout<<"1 argument constructer"<<endl;
+		
+	}
+		A(string s,int a){
+		name = s;
+		age = a;
+		float = 4;
+		cout<<"2 argument constructer"<<endl;
+		
+	}
+	
+		A(string s,int a,float g){
+		name = s;
+		age = a;
+		float = g;
+		cout<<"3 argument constructer"<<endl;
+		
+	}
+	
+	void print(){
+		
+		cout<<"the name of the student : "<<name<<endl;
+		cout<<"the age of the student : "<<age <<endl;
+	 	cout<<"the gpa of the student : "<<gpa<<endl;
+		
+		
+	}
+	
+	
+	
+};
+
+class B : public A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+int main() {
+	return 0;
+}
