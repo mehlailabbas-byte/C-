@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     try {
-        int a = 10, b = 0;
+        int a = 20, b = 0;
         if (b == 0)
             throw runtime_error("Cannot divide by zero!");
         cout << a / b;
