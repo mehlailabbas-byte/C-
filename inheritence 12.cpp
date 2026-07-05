@@ -7,6 +7,7 @@ public:
 	//Data members
 	string name;
 	int age;
+	int section;
 	
 	// Constructer
 	A(){
